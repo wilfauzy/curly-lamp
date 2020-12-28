@@ -19,7 +19,6 @@ module.exports = {
   pingbackUrl: 'https://webmention.io/wildanfauzy.com/xmlrpc',
   webmentionUrl: 'https://webmention.io/wildanfauzy.com/webmention',
   micropubUrl: 'https://mm-micropub-to-github.herokuapp.com/micropub/main',
-  staticmanApi: 'https://api.staticman.net/v2/connect/wilfauzy/curly-lamp/master/comments',
 
   // JSONLD / Manifest
   favicon: '/images/theme/alok-logo.png', // Used for manifest favicon generation
