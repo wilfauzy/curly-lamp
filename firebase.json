@@ -1,0 +1,174 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "headers": [{
+        "source": "**/*.@(eot|otf|ttf|ttc|woff|woff2)",
+        "headers": [{
+            "key": "Access-Control-Allow-Origin",
+            "value": "*"
+          },
+          {
+            "key": "Cache-Control",
+            "value": "max-age=38880000"
+          }
+        ]
+      }, {
+        "source": "**/*.@(jpg|jpeg|gif|png|svg)",
+        "headers": [{
+          "key": "Cache-Control",
+          "value": "max-age=38880000"
+        }]
+      },
+      {
+        "source": "**/*.@(js|css|json|webmanifest)",
+        "headers": [{
+          "key": "Cache-Control",
+          "value": "max-age=604800"
+        }]
+      }, {
+        "source": "404.html",
+        "headers": [{
+          "key": "Cache-Control",
+          "value": "max-age=300"
+        }]
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/index.html",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "blog.alokprateek.in/",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/recent/",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/recent/page2/",
+        "destination": "/",
+        "type": 301
+      },
+      {
+      "source": "/privacy.html",
+      "destination": "/terms/",
+      "type": 301
+      },
+      {
+        "source": "/terms.html",
+        "destination": "/terms/",
+        "type": 301
+      },
+      {
+        "source": "/privacy/",
+        "destination": "/terms/",
+        "type": 301
+      },
+      {
+        "source": "/pressdoc.html",
+        "destination": "/terms/",
+        "type": 301
+      },
+      {
+        "source": "/tandc/",
+        "destination": "/terms/",
+        "type": 301
+      },
+      {
+        "source": "/contact/",
+        "destination": "/contact/",
+        "type": 301
+      },
+      {
+        "source": "/categories/",
+        "destination": "/tag/",
+        "type": 301
+      },
+      {
+        "source": "/development/jekyll-pwa/",
+        "destination": "/articles/jekyll-pwa/",
+        "type": 301
+      },
+      {
+        "source": "/development/aws-terms/",
+        "destination": "/articles/aws-terms/",
+        "type": 301
+      },
+      {
+        "source": "/development/web-accessibility/",
+        "destination": "/articles/web-accessibility/",
+        "type": 301
+      },
+      {
+        "source": "/development/jekyll-api-gh-pages-and-json-feed/",
+        "destination": "/articles/jekyll-api-gh-pages/",
+        "type": 301
+      },
+      {
+        "source": "/random/fascism/",
+        "destination": "/notes/fascism/",
+        "type": 301
+      },
+      {
+        "source": "/dev/",
+        "destination": "/tag/development/",
+        "type": 301
+      },
+      {
+        "source": "/work/",
+        "destination": "/work/",
+        "type": 301
+      },
+      {
+        "source": "/random/",
+        "destination": "/notes/",
+        "type": 301
+      },
+      {
+        "source": "/repos/",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/gists/",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/hardware/",
+        "destination": "/",
+        "type": 301
+      },
+      {
+        "source": "/random/feynman-tecnique/",
+        "destination": "/mod/",
+        "type": 301
+      },
+      {
+        "source": "/random/color-purple/",
+        "destination": "/mod/",
+        "type": 301
+      },
+      {
+        "source": "/404.html",
+        "destination": "/404.html",
+        "type": 301
+      },
+      {
+        "source": "/feed.xml",
+        "destination": "/atom.xml",
+        "type": 301
+      }
+    ]
+  }
+}
