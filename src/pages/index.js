@@ -30,7 +30,8 @@ const HomePage = ({ data }) => {
         <div className={style.title}>
           <h1 className={style.heading}>
             <span>
-              WildanFauzy.com adalah blog yang membahas info menarik disajikan secara asik dan santai</a>.
+              WildanFauzy.com adalah blog yang membahas info menarik disajikan secara{' '}
+              <a href="/about/">Asik&nbsp;Santai</a>.
             </span>
           </h1>
           <div className={style.intro}>
