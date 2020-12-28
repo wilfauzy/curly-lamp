@@ -30,8 +30,7 @@ const HomePage = ({ data }) => {
         <div className={style.title}>
           <h1 className={style.heading}>
             <span>
-              Meteoric Teachings is the personal site of{' '}
-              <a href="/about/">Alok&nbsp;Prateek</a>.
+              WildanFauzy.com adalah blog yang membahas info menarik disajikan secara asik dan santai</a>.
             </span>
           </h1>
           <div className={style.intro}>

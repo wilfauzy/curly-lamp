@@ -3,7 +3,7 @@ module.exports = {
   title: 'WildanFauzy.com', // Navigation and site title
   titleAlt: 'WildanFauzy.com', // Title for schema.org JSONLD
   // eslint-disable-next-line prettier/prettier
-  description: 'WildanFauzy.com adalah blog yang membahas info menarik disajikan secara asik dan santai, kumpulan cerita dari sudut pandang yang berbeda, tulisan apa adanya.',
+  description: 'Stories That Matters',
   url: 'https://wildanfauzy.com', // Domain of your site. No trailing slash!
   siteLanguage: 'en', // Language Tag on <html> element
   image: {
